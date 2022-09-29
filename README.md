@@ -1,9 +1,6 @@
 # DiffuseIT
 ## Official repository of "Diffusion-based Image Translation using Disentangled Style and Content Representation"
 
-# CLIPstyler
-## Official Pytorch implementation of "Diffusion-based Image Translation using Disentangled Style and Content Representation"
-
 ### Environment
 Pytorch 1.9.1, Python 3.8
 
