@@ -38,7 +38,9 @@ To use FFHQ pre-trained model, activate ```--use_ffhq```
 
 ### Image-guided Image translation
 ```
-python main.py -i "input_example/reptile1.jpg"  --output_path "./outputs/output_reptile" -tg "input_example/reptile2.jpg" --use_range_restart --diff_iter 100 --timestep_respacing 200 --skip_timesteps 80 --use_colormatch --use_noise_aug_all
+python main.py -i "input_example/reptile1.jpg"  --output_path "./outputs/output_reptile" 
+-tg "input_example/reptile2.jpg" --use_range_restart --diff_iter 100 --timestep_respacing 200 --skip_timesteps 80 
+--use_colormatch --use_noise_aug_all
 ```
 
 To remove the color matching, deactivate ```--use_colormatch```
