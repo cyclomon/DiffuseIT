@@ -10,6 +10,15 @@ $ conda activate DiffuseIT
 $ pip3 install ftfy regex matplotlib lpips kornia opencv-python torch==1.9.0+cu111 torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
+### Model download
+To generate images, please download the pre-trained diffusion model
+
+imagenet 256x256 [LINK](https://drive.google.com/file/d/1kfCPMZLaAcpoIcvzTHwVVJ_qDetH-Rns/view?usp=sharing)
+
+FFHQ 256x256 [LINK](https://drive.google.com/file/d/1-oY7JjRtET4QP3PIWg3ilxAo4VfjCa3J/view?usp=sharing)
+
+download the model into ```./checkpoints``` folder
+
 ### Text-guided Image translation
 
 ```
@@ -24,6 +33,8 @@ To use noise augmented images for our ViT losses, activate ```--use_noise_aug_al
 To use progressively increasing our contrastive loss, activate ```--use_prog_contrast```
 
 To restart the whole process with high rgb regularize loss, activate ```--use_range_restart```
+
+To use FFHQ pre-trained model, activate ```--use_ffhq```
 
 ### Image-guided Image translation
 ```
