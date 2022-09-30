@@ -97,7 +97,7 @@ class ImageEditor:
         if self.args.use_ffhq:
             self.model.load_state_dict(
                 torch.load(
-                    "checkpoints/ffhq_10m.pt",
+                    "./checkpoints/ffhq_10m.pt",
                     map_location="cpu",
                 )
             )
@@ -105,7 +105,7 @@ class ImageEditor:
         else:
             self.model.load_state_dict(
             torch.load(
-                "checkpoints/256x256_diffusion_uncond.pt"
+                "./checkpoints/256x256_diffusion_uncond.pt"
                 if self.args.model_output_size == 256
                 else "checkpoints/512x512_diffusion.pt",
                 map_location="cpu",
