@@ -123,7 +123,8 @@ class ImageEditor:
         cfg = config
         
         self.VIT_LOSS = Loss_vit(cfg, lambda_ssim=self.args.lambda_ssim,lambda_dir_cls=self.args.lambda_dir_cls,lambda_contra_ssim=self.args.lambda_contra_ssim,lambda_trg=args.lambda_trg).eval()#.requires_grad_(False)
-        names = ['RN50', 'RN50x4', 'ViT-B/32', 'RN50x16', 'ViT-B/16']
+      
+        names = self.args.clip_models
         # init networks
         if self.args.target_image is None:
             self.clip_net = CLIPS(names=names, device=self.device, erasing=False)#.requires_grad_(False)
