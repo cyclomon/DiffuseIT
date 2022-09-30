@@ -38,6 +38,8 @@ To restart the whole process with high rgb regularize loss, activate ```--use_ra
 
 To use FFHQ pre-trained model, activate ```--use_ffhq```
 
+For memory saving, we can use single CLIP model with ```--clip_models 'ViT-B/32'```
+
 ### Image-guided Image translation
 ```
 python main.py -i "input_example/reptile1.jpg"  --output_path "./outputs/output_reptile" 
