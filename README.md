@@ -7,7 +7,8 @@ Pytorch 1.9.1, Python 3.8
 ```
 $ conda create --name DiffuseIT python=3.9
 $ conda activate DiffuseIT
-$ pip3 install ftfy regex matplotlib lpips kornia opencv-python torch==1.9.0+cu111 torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+$ pip install ftfy regex matplotlib lpips kornia opencv-python torch==1.9.0+cu111 torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+$ pip install color-matcher
 ```
 
 ### Model download
