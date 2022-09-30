@@ -9,6 +9,7 @@ $ conda create --name DiffuseIT python=3.9
 $ conda activate DiffuseIT
 $ pip install ftfy regex matplotlib lpips kornia opencv-python torch==1.9.0+cu111 torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
 $ pip install color-matcher
+$ pip install git+https://github.com/openai/CLIP.git
 ```
 
 ### Model download
