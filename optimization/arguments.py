@@ -44,7 +44,12 @@ def get_arguments() -> argparse.Namespace:
         default=256,
         choices=[256, 512],
     )
-
+    parser.add_argument(
+        "--clip_models",
+        help="List for CLIP models",
+        nargs="+",
+        default=['RN50', 'RN50x4', 'ViT-B/32', 'RN50x16', 'ViT-B/16'],
+    )
     # Augmentations
     parser.add_argument("--aug_num", type=int, help="The number of augmentation", default=8)
     parser.add_argument("--diff_iter", type=int, help="The number of augmentation", default=50)
