@@ -294,8 +294,8 @@ class ImageEditor:
                     visualization_path = Path(
                         os.path.join(self.args.output_path, self.args.output_file)
                     )
-                    visualization_path = visualization_path.with_stem(
-                        f"{visualization_path.stem}_i_{iteration_number}_b_{b}"
+                    visualization_path = visualization_path.with_name(
+                        f"{visualization_path.stem}_i_{iteration_number}_b_{b}{visualization_path.suffix}"
                     )
 
                     pred_image = pred_image.add(1).div(2).clamp(0, 1)
