@@ -23,6 +23,8 @@ download the model into ```./checkpoints``` folder
 
 ### Text-guided Image translation
 
+We provide Colab Demo for Text-guided Image translation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OlN7LBT-cH8D0cY0arfhNoGyxUwMXz56?usp=sharing)
+
 ```
 python main.py -p "Black Leopard" -s "Lion" -i "input_example/lion1.jpg" --output_path "./outputs/output_leopard" 
 --use_range_restart --use_noise_aug_all --regularize_content
