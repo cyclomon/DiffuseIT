@@ -43,6 +43,8 @@ To use FFHQ pre-trained model, activate ```--use_ffhq```
 For memory saving, we can use single CLIP model with ```--clip_models 'ViT-B/32'```
 
 ### Image-guided Image translation
+
+We provide Colab Demo for Image-guided Image translation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nDAJ-rxftY-_1sSX48P-on26WBRlSIAw?usp=sharing)
 ```
 python main.py -i "input_example/reptile1.jpg"  --output_path "./outputs/output_reptile" 
 -tg "input_example/reptile2.jpg" --use_range_restart --diff_iter 100 --timestep_respacing 200 --skip_timesteps 80 
