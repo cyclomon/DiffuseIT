@@ -2,7 +2,7 @@
 ## Official repository of "Diffusion-based Image Translation using Disentangled Style and Content Representation"
 
 ### Environment
-Pytorch 1.9.1, Python 3.8
+Pytorch 1.9.0, Python 3.9
 
 ```
 $ conda create --name DiffuseIT python=3.9
