@@ -21,6 +21,10 @@ FFHQ 256x256 [LINK](https://drive.google.com/file/d/1-oY7JjRtET4QP3PIWg3ilxAo4Vf
 
 download the model into ```./checkpoints``` folder
 
+For face identity loss when using FFHQ pre-trained model, download pre-trained ArcFace model [LINK](https://drive.google.com/file/d/1SJa5qVNM6jGZdmsnUsGNhjtrssGYuJfT/view?usp=sharing)
+
+save the model into ```./id_model```
+
 ### Text-guided Image translation
 
 We provide Colab Demo for Text-guided Image translation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OlN7LBT-cH8D0cY0arfhNoGyxUwMXz56?usp=sharing)
