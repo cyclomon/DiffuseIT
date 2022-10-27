@@ -15,7 +15,7 @@ import torchvision.transforms.functional as F
 from torchvision.transforms import functional as TF
 from torch.nn.functional import mse_loss
 from optimization.losses import range_loss, d_clip_loss
-import lpips
+# import lpips
 import numpy as np
 from src.vqc_core import *
 from model_vit.loss_vit import Loss_vit
