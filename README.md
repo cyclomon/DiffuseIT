@@ -1,5 +1,7 @@
 # DiffuseIT
-## Official repository of "Diffusion-based Image Translation using Disentangled Style and Content Representation"
+## Official repository of "Diffusion-based Image Translation using Disentangled Style and Content Representation" (ICLR 2023)
+### [Gihyun Kwon](https://sites.google.com/view/gihyunkwon), [Jong Chul Ye](https://bispl.weebly.com/professor.html)
+LINK : https://arxiv.org/abs/2209.15264
 
 ### Environment
 Pytorch 1.9.0, Python 3.9
